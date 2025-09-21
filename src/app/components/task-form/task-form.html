@@ -1,0 +1,8 @@
+<h2>{{ editIndex !== null ? 'Editar tarea' : 'Nueva tarea' }}</h2>
+
+<form (ngSubmit)="guardarTarea()">
+  <input type="text" [(ngModel)]="nuevaTarea" name="tarea" required>
+  <button type="submit">
+    {{ editIndex !== null ? 'Guardar cambios' : 'Agregar' }}
+  </button>
+</form>

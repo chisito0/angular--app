@@ -1,0 +1,9 @@
+<h2>Lista de Tareas</h2>
+
+<ul>
+  <li *ngFor="let tarea of tareas; let i = index">
+    {{ tarea }}
+    <button (click)="eliminarTarea(i)">❌</button>
+    <button [routerLink]="['/edit', i]">✏️</button>
+  </li>
+</ul>
