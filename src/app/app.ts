@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule],   // 👈 añadir RouterModule aquí
+  imports: [RouterModule],  
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

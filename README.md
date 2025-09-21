@@ -15,7 +15,7 @@ El objetivo era aprender lo básico de **Angular** y **GitHub** construyendo alg
 - HTML, CSS y TypeScript  
 - LocalStorage para persistencia  
 
-## ▶ Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 1. Clonar este repositorio:
    git clone https://github.com/chisito0/angular--app.git
    cd angular--app
